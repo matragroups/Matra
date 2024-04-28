@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Hero() {
     return (
-        <div className=" px-5 py-8 lg:px-10 xl:px-16 lg:py-6">
+        <div className=" px-5 py-8 lg:px-10 xl:px-16 lg:py-6 h-screen flex flex-col justify-center items-center">
             <div className="flex flex-col md:flex-row gap-12">
-                <div className="flex w-1/2 justify-center items-center mx-auto rounded-3xl">
+                <div className="flex md:w-1/2 justify-center items-center mx-auto rounded-3xl">
                     <img className="my-auto" src="./matra.png" width={"100%"} />
                 </div>
                 <div className="md:w-[60%] md:pr-28 md:pl-4 md:py-12 md:text-left xl:gap-6 flex flex-col justify-center ">
