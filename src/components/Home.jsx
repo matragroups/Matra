@@ -10,8 +10,8 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
-      <WhyMatra />
       <For />
+      <WhyMatra />
       <Footer />
     </div>
   )
